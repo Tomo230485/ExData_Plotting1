@@ -12,6 +12,6 @@ if(!exists("data3")){
 
 ## create graph and save it in png file
 
-png(file="Plot 1.png", width=480,height=480)
+png(file="Plot1.png", width=480,height=480)
 with(data3, hist(Global_active_power, main = "Global Active Power", xlab = "Global Active Power (kilowatts)", col="red"))
 dev.off()

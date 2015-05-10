@@ -13,6 +13,6 @@ if(!exists("data3")){
 
 ## create graph and save it in png file
 
-png(file="Plot 2.png", width=480,height=480)
+png(file="Plot2.png", width=480,height=480)
 with(data3,plot(datetime,Global_active_power, xlab= "", ylab="Global Active Power (kilowatts)", type="l"))
 dev.off()

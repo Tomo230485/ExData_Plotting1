@@ -13,7 +13,7 @@ if(!exists("data3")){
 
 ## create graph and save it in png file
 
-png(file="Plot 3.png", width=480,height=480)
+png(file="Plot3.png", width=480,height=480)
 with(data3,plot(datetime,Sub_metering_1, xlab= "", ylab="Energy sub metering", type="l"))
 with(data3, points(datetime,Sub_metering_2, col="red", type="l"))
 with(data3, points(datetime,Sub_metering_3, col="blue", type="l"))
